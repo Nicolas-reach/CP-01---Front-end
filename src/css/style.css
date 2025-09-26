@@ -1,3 +1,84 @@
 body {
     background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    background-color: rgb(22, 22, 22);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 0.2s ease;
+}
+
+nav a:active {
+    background-color: rgb(80, 80, 80);
+}
+
+.form {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;               
+    justify-content: center;     
+    gap: 20vw;
+}
+
+button {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: rgb(80, 80, 80);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
 }

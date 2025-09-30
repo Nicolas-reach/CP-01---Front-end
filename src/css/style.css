@@ -94,3 +94,20 @@ label {
     overflow:hidden;
     max-width:100%;
 }
+.img-tabela {
+    width: 140px;
+    height: 180px;
+}
+
+.tabela-vinhos {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-vinhos h2 {
+    font-size: 28px;
+    color: #e0dcdc;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}

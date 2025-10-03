@@ -1,21 +1,21 @@
 body {
-    background-color: rgb(44, 44, 44);
-    color: white;
+    background-color: #2c1a1a;
+    color: #f5e6d3;
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: rgb(32, 32, 32);
+    background-color: #3a2424;
     padding: 10px;
     text-align: center;
 }
 
 nav ul li a {
-    color: white;
+    color: #f5e6d3;
     text-decoration: none;
     margin: 0 15px;
-    background-color: rgb(22, 22, 22);
+    background-color: #2c1a1a;
     padding: 5px;
     border-radius: 5px;
 }
@@ -25,21 +25,21 @@ nav ul li {
 }
 
 nav ul li a:hover {
-    background-color: rgb(50, 50, 50);
+    background-color: #5a2a2a;
     transition: background-color 0.2s ease;
 }
 
 nav ul li a:active {
-    background-color: rgb(80, 80, 80);
+    background-color: #7a3a3a;
 }
 
 .form {
-    background-color: rgb(32, 32, 32);
+    background-color: #3a2424;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
     margin: 20px auto;
-    color: white;
+    color: #f5e6d3;
     text-align: center;
 }
 
@@ -52,8 +52,8 @@ nav ul li a:active {
 }
 
 button {
-    background-color: rgb(32, 32, 32);
-    color: white;
+    background-color: #3a2424;
+    color: #f5e6d3;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -61,20 +61,21 @@ button {
 }
 
 button:hover {
-    background-color: rgb(50, 50, 50);
+    background-color: #5a2a2a;
     transition: background-color 0.2s ease;
 }
 
 button:active {
-    background-color: rgb(80, 80, 80);
+    background-color: #7a3a3a;
 }
 
 h1 {
     text-align: center;
+    color: #c7a76c;
 }
 
 .container {
-    background-color: rgb(32, 32, 32);
+    background-color: #3a2424;
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -88,12 +89,13 @@ label {
 }
 
 #video {
-    position:relative;
-    padding-bottom:56.25%;
-    height:0;
-    overflow:hidden;
-    max-width:100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
+
 .img-tabela {
     width: 140px;
     height: 180px;
@@ -106,7 +108,7 @@ label {
 
 .titulo-vinhos h2 {
     font-size: 28px;
-    color: #e0dcdc;
+    color: #c7a76c;
     text-align: center;
     font-weight: bold;
     padding: 20px;
